@@ -21,3 +21,10 @@ INSERT INTO clientes (tipo, precio, disponibilidad) VALUES
 ('Laura', 'López', 'laura@example.com', '123456789'),
 ('Carlos', 'Fernández', 'carlos@example.com', '456789123');
 
+-- Insertar cuatro registros en la tabla 'HOTEL'
+INSERT INTO hotel (ID_habitaciones, ID_clientes, ID_reservas) VALUES
+(1,1,1),
+(2,2,2),
+(3,3,3),
+(4,4,4);
+
