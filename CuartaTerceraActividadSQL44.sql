@@ -6,8 +6,8 @@ SET fecha_inicio = '2024-07-01'
 WHERE ID_reservas = 1;
 
 -- Elimina un tipo de cuarto de 'HABITACIONES'
-DELETE FROM hotel 
-WHERE ID_hotel = 3;
+DELETE FROM habitaciones
+WHERE tipo = 'Doble';
 
 -- Agregar una columna a 'CLIENTES'
 ALTER TABLE habitaciones
